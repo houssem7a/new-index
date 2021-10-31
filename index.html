@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      width: 100%;
+      background-color: #555;
+      overflow: auto;
+    }
+
+    .navbar a {
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background-color: #000;
+    }
+
+    .active {
+      background-color: #04aa6d;
+    }
+
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+    h1 {
+      color: #ff0000;
+      font-family: roboto;
+      text-align: center;
+    }
+  </style>
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="navbar">
+      <a class="active" href="index.html"> Home</a>
+      <a href="Search.html"> Search</a>
+      <a href="Contact.html"> Contact</a>
+      <a href="Login.html"> Login</a>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="winter.jpg">
+        <img src="winter.jpg" alt="Winter" width="600" height="400" />
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="summer.jpg">
+        <img src="summer.jpg" alt="Summer" width="600" height="400" />
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="fall.jpg">
+        <img src="fall.jpg" alt="Fall" width="600" height="400" />
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="spring.jpg">
+        <img src="spring.jpg" alt="Spring" width="600" height="400" />
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </body>
+</html>
